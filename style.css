@@ -1,0 +1,264 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+
+
+}
+
+/**************Buy Button*****************/
+.buy-btn {
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 24px;
+    background: linear-gradient(#181b3f, #5a5a5a);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none !important;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all .3s ease;
+}
+
+.buy-btn:hover {
+    background: linear-gradient(#5a5a5a, #181b3f);
+}
+
+.buy-btn i {
+    margin-right: 5px;
+}
+
+/**************Navigation*****************/
+.link-color {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/**************Banner Section*****************/
+.bannerSection .banner-content h1 {
+    font-size: 4.7rem;
+}
+
+.bannerSection .banner-content .heading-color1 {
+    color: #FABE4C;
+    margin-bottom: -20px;
+}
+
+.bannerSection .banner-content .heading-color2 {
+    color: #363958;
+}
+
+.bannerSection .banner-content p {
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+}
+
+.bannerSection .banner-image {
+    width: 420px;
+}
+
+.bannerSection .banner-image img {
+    max-width: 100%;
+}
+
+/*********Collection***************/
+
+.collection article {
+    border-radius: 20px;
+}
+
+.collection article .img-background {
+    background: #F1F1F1;
+    padding: 20px 20px 0px 20px;
+    border-radius: 10px;
+}
+
+.collection article h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 18px;
+    color: #363958;
+}
+
+.collection article p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #3E3E3E;
+
+}
+
+.collection article .price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    color: #FABE4C;
+    font-weight: 900;
+}
+
+/*******About Section*************/
+
+.aboutSection h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.aboutSection p {
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.aboutSection .about-radius {
+    border-radius: 10px;
+}
+
+/**************Contact Section**********/
+.contact .contact_heading h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #363958;
+
+}
+
+.contact .contact_heading p {
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    font-size: 14px;
+}
+
+.contact .row #name,
+#email,
+#message {
+    width: 100%;
+    padding: 12px 8px;
+    margin-bottom: 20px;
+    color: dimgray;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 180, 180);
+    font-family: 'Roboto', sans-serif;
+}
+
+/***************Footer***********/
+.top_footer {
+    background: #181b3f;
+}
+
+.topFooter_link i {
+    color: #bfbfc0;
+    transition: all .3s;
+}
+
+.topFooter_link i:hover {
+    color: #ffffff;
+
+}
+
+.top_footer h6 {
+    font-size: 35px;
+}
+
+.footer_link {
+    padding: 50px 0px;
+    background: #2b2828;
+}
+
+.footer_link p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.footer_link a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #9576eb;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.footer_link a:hover {
+
+    color: #d9d5e6;
+}
+
+.footer_link li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.footer_link .link_left {
+    margin-left: 1.5rem;
+}
+
+.copy-right-text {
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*********Media Queries************/
+@media (max-width: 768px) {
+    .bannerSection .banner-content h1 {
+        font-size: 4rem;
+    }
+
+    .aboutSection .about-blog .about-radius {
+        display: block !important;
+        text-align: center;
+        padding: 20px 50px !important;
+    }
+
+    .aboutSection .about-blog .about-radius h3 {
+        padding: 5px 0px;
+    }
+
+    .buy-btn {
+        font-family: 'Roboto', sans-serif;
+        padding: 10px 20px;
+        background: linear-gradient(#181b3f, #5a5a5a);
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        outline: none !important;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: all .3s ease;
+    }
+
+    .collection article .price {
+        font-size: 28px;
+    }
+
+    .contact .contact_heading h1 {
+        font-size: 42px;
+    }
+
+    .top_footer h6 {
+        font-size: 18px;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+    .aboutSection .about-blog .about-radius {
+        display: block !important;
+        text-align: center;
+        padding: 20px 50px !important;
+    }
+
+    .aboutSection .about-blog .about-radius h3 {
+        padding: 5px 0px;
+    }
+
+
+}
